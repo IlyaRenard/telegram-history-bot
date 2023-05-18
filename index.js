@@ -10,8 +10,8 @@ const {
   subjects10Options,
 } = require("./options.js");
 const keepAlive = require("./server.js");
+const { token } = require("./token.js");
 
-const token = "6027757240:AAFX4qAMn4TqRWUO6uR3PYLiOMYLWlfS90o";
 
 const bot = new TelegramApi(token, { polling: true });
 
